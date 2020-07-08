@@ -1,0 +1,193 @@
+/* @media screen and (max-width: 1199px)
+{
+    .slide-bck {height:665px;}
+} */
+
+
+@media screen and (max-width:1080px)
+{
+    
+
+    .box-icon-menu {
+        display:block;
+    }
+
+    .box-cancel {
+        display:block;
+        position: absolute;
+        right:40px;
+        top:40px;
+    }
+
+    .list {
+        border:1px solid white;
+        max-width:100%;
+        height:100vh;
+        position:fixed;
+        z-index:100;
+        background-color:#250b50;
+        padding:10% 40%;
+        display:none;
+    }
+
+    .box-social-network {
+        width:450px;
+        height:60px;
+        margin-top:80px;
+        margin-left:5%;
+    }
+
+    .box-icon-social-network {
+        padding:15px;
+        float: left;
+    }
+
+   
+    .btns {
+        width:80%;
+        padding:10px 0px;
+    }
+    .links {
+        padding-left:15px;
+    }
+    .log-btn > span:first-child,
+    .register-btn > span:first-child{
+        display:none;
+    }
+    .log-btn,
+    .register-btn {
+        padding:10px 15px;
+        border-radius:50%;
+    }
+
+    .log-btn > .icon-log-in ,
+    .register-btn > .icon-user2 {
+        margin-left:0px !important;
+    }
+
+    .cel-img {
+        width:100%;
+        margin:250px 0px 0px 0px;
+    }
+}
+
+
+@media screen and (max-width:990px) {
+    
+    .img-3d-logo {
+        width:100%;
+        margin-top:150px;
+    }
+}
+
+
+
+@media screen and (max-width:770px) {
+    
+    .img-3d-logo {
+        width:50%;
+        margin-top:0px;
+    }
+
+    .num-slide {
+        font-size:360px;
+    }
+
+    .slide-svg {
+        height:300px;
+    }
+    .cont-flag-bck {
+        margin-top:25px;
+    }
+
+    .responsive-icons {display:none;}
+}
+
+@media screen and (max-width:740px) {
+    
+    .num-slide {
+        font-size:400px;
+        top:100px;
+    }
+
+    .radius-box {
+        border:1px solid rgba(255,255,255,.7);
+        color:rgba(255,255,255,.7) !important;
+        padding:10px !important;
+    }
+}
+
+@media screen and (max-width:573px)
+{
+    h3 {font-size:1.4rem !important;}
+}
+
+@media screen and (max-width:530px)
+{
+    .bck-about-me {height:850px;}
+}
+
+@media screen and (max-width:411px)
+{
+
+    
+
+    .box-icon-menu {
+        display:block;
+    }
+
+    .logo {
+        width:70px;
+        overflow:hidden;
+        padding:15px 0px 0px 20px;
+    }
+
+    .logo-image {
+        width:150px;
+    }
+
+    .img-3d-logo {
+        width:60%;
+        margin-top:-50px;
+    }
+
+    .num-slide {
+        font-size:200px;
+        top:200px;
+    }
+
+    .title-slide {
+        font-size:1.4rem;
+        text-align:center;
+    }
+    .text-slide {
+        font-size:.9rem;
+        text-align:center;
+    }
+
+    .slide-svg {
+        height:400px;
+    }
+
+    .profile-img-me {
+        border:10px solid #fff;
+        width:100%;
+    }
+}
+
+@media screen and (max-width:360px)
+{
+    .box-icon-menu {
+        display:block;
+    }
+
+    .img-3d-logo {
+        width:80%;
+        margin-top:-50px;
+    }
+
+    .bck-about-me {height:1200px;}
+
+    
+}
+

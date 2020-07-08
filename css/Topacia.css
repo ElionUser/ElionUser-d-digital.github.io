@@ -1,0 +1,337 @@
+/*
+|
+| IMAGENES
+|
+*/
+
+.img-full {width:100%;}
+
+/*
+*
+* BACKGROUNDS COLORS
+*
+*/
+
+
+.bck-01 { background-color:#fff; }
+.bck-02 { background-color:#000; }
+.bck-03 { background-color:rgb(255, 115, 115); }
+.bck-04 { background-color:rgb(109, 93, 255); }
+.bck-05 { background-color:rgb(89, 194, 63); }
+.bck-06 { background-color:rgb(255, 183, 75); }
+.bck-07 { background-color:rgb(102, 245, 255); }
+
+/*
+*
+* FONTS
+*
+*/
+
+/*- FONTS SIZE -*/
+.f-0 { font-size:3rem; }
+.f-1 { font-size:2rem; }
+.f-2 { font-size:1.8rem; }
+.f-3 { font-size:1.4rem; }
+.f-4 { font-size:1.2rem; }
+.f-5 { font-size: 1rem; }
+.f-6 { font-size:.9rem; }
+.f-7 { font-size:.8rem; }
+.f-8 { font-size:.7rem; }
+.f-9 { font-size:.6rem; }
+
+
+/*- FONTS WEIGHT -*/
+
+.fw-l { font-weight:lighter;}
+.fw-m { font-weight:400; }
+.fw-b { font-weight:bold; }
+
+/*- DEESING FONT 01 -*/
+
+@font-face { 
+    src: url(../Fonts/UbuntuCondensed-Regular.ttf);
+    font-family:"Main";
+}
+
+.df-01 {font-family:"Main";}
+
+/*- DEESING FONT 02 -*/
+
+/*- DEESING FONT 03 -*/
+
+/*- DEESING FONT 04 -*/
+
+/*- TEKO -*/
+
+@font-face{src:url(../Fonts/Teko/Teko-Light.ttf);font-family:"Tko_L";}
+@font-face{src:url(../Fonts/Teko/Teko-Regular.ttf);font-family:"Tko_R";}
+@font-face{src:url(../Fonts/Teko/Teko-Medium.ttf);font-family:"Tko_M";}
+@font-face{src:url(../Fonts/Teko/Teko-Bold.ttf);font-family:"Tko_B";}
+
+
+.Tko_L {font-family: "Tko_L";}
+.Tko_R {font-family: "Tko_R";}
+.Tko_M {font-family: "Tko_M";}
+.Tko_B {font-family: "Tko_B";}
+
+/*
+*
+* FONTS COLORS
+*
+*/
+
+.c-w1 { color:#fff !important; }
+.c-b1 { color:#000 !important; }
+.c-b2 { color: rgba(0,0,0,.3) !important; }
+.c-b3 { color: rgba(0,0,0,.7) !important; }
+.c-w2 { color: rgba(255,255,255,.3) !important; }
+.c-w3 { color: rgba(255,255,255,.7) !important; }
+.c-r1 { color: red;}
+
+/*CUSTON*/
+
+.cc-1 {color:rgb(59, 105, 255);}
+
+/*
+*
+* BORDERS
+*
+*/
+
+.bor-a { border:1px solid rgba(0,0,0,.3); }
+.bor-t { border-top:1px solid rgba(0,0,0,.3); }
+.bor-b { border-bottom:1px solid rgba(0,0,0,.3); }
+.bor-l { border-left:1px solid rgba(0,0,0,.3); }
+.bor-r { border-right:1px solid rgba(0,0,0,.3); }
+
+
+/*--- TEST BORDERS ---*/
+
+.bor-test-1 { border:1px solid #000; }
+.bor-test-2 { border:1px solid #fff; }
+.bor-test-3 { border:1px solid rgb(243, 91, 21); }
+.bor-test-4 { border:1px solid rgb(40, 19, 224); }
+.bor-test-5 { border:1px solid rgb(14, 177, 28); }
+.bor-test-6 { border:1px solid rgb(213, 255, 27); }
+.bor-test-7 { border:1px solid rgb(177, 14, 177); }
+.bor-test-8 { border:1px solid rgb(177, 14, 28); }
+.bor-test-9 { border:1px solid rgb(243, 15, 15); }
+
+
+/*
+*
+* PADDINGS
+*
+*/
+
+/*--- Todo (a) ---*/
+
+.pd-a-1 { padding:1px; }
+.pd-a-2 { padding:2px; }
+.pd-a-4 { padding:4px; }
+.pd-a-6 { padding:6px; }
+.pd-a-8 { padding:8px; }
+.pd-a-10 { padding:10px; }
+.pd-a-20 { padding:20px; }
+.pd-a-30 { padding:30px; }
+.pd-a-40 { padding:40px; }
+.pd-a-50 { padding:50px; }
+.pd-a-60 { padding:60px; }
+
+/*--- Top ---*/
+
+.pd-t-1 { padding-top:1px; }
+.pd-t-2 { padding-top:2px; }
+.pd-t-4 { padding-top:4px; }
+.pd-t-6 { padding-top:6px; }
+.pd-t-8 { padding-top:8px; }
+.pd-t-10 { padding-top:10px; }
+.pd-t-15 { padding-top:15px; }
+.pd-t-20 { padding-top:20px; }
+.pd-t-25 { padding-top:25px; }
+.pd-t-30 { padding-top:30px; }
+
+/*--- Bottom ---*/
+
+.pd-b-1 { padding-bottom:1px; }
+.pd-b-2 { padding-bottom:2px; }
+.pd-b-4 { padding-bottom:4px; }
+.pd-b-6 { padding-bottom:6px; }
+.pd-b-8 { padding-bottom:8px; }
+.pd-b-10 { padding-bottom:10px; }
+.pd-b-15 { padding-bottom:15px; }
+.pd-b-20 { padding-bottom:20px; }
+.pd-b-25 { padding-bottom:25px; }
+.pd-b-30 { padding-bottom:30px; }
+
+/*--- Right ---*/
+
+.pd-r-1 { padding-right:1px; }
+.pd-r-2 { padding-right:2px; }
+.pd-r-4 { padding-right:4px; }
+.pd-r-6 { padding-right:6px; }
+.pd-r-8 { padding-right:8px; }
+.pd-r-10 { padding-right:10px; }
+.pd-r-15 { padding-right:15px; }
+.pd-r-20 { padding-right:20px; }
+.pd-r-25 { padding-right:25px; }
+.pd-r-30 { padding-right:30px; }
+
+/*--- Left ---*/
+
+.pd-l-1 { padding-left:1px; }
+.pd-l-2 { padding-left:2px; }
+.pd-l-4 { padding-left:4px; }
+.pd-l-6 { padding-left:6px; }
+.pd-l-8 { padding-left:8px; }
+.pd-l-10 { padding-left:10px; }
+.pd-l-15 { padding-left:15px; }
+.pd-l-20 { padding-left:20px; }
+.pd-l-25 { padding-left:25px; }
+.pd-l-30 { padding-left:30px; }
+
+
+
+/*
+*
+* MARGINS
+*
+*/
+
+/*--- Top ---*/
+
+.mg-t-1 { margin-top:1px; }
+.mg-t-2 { margin-top:2px; }
+.mg-t-4 { margin-top:4px; }
+.mg-t-6 { margin-top:6px; }
+.mg-t-8 { margin-top:8px; }
+.mg-t-10 { margin-top:10px; }
+.mg-t-15 { margin-top:15px; }
+.mg-t-20 { margin-top:20px; }
+.mg-t-25 { margin-top:25px; }
+.mg-t-30 { margin-top:30px; }
+
+/*--- Bottom ---*/
+
+.mg-b-1 { margin-bottom:1px; }
+.mg-b-2 { margin-bottom:2px; }
+.mg-b-4 { margin-bottom:4px; }
+.mg-b-6 { margin-bottom:6px; }
+.mg-b-8 { margin-bottom:8px; }
+.mg-b-10 { margin-bottom:10px; }
+.mg-b-15 { margin-bottom:15px; }
+.mg-b-20 { margin-bottom:20px; }
+.mg-b-25 { margin-bottom:25px; }
+.mg-b-30 { margin-bottom:30px; }
+
+/*--- Right ---*/
+
+.mg-r-1 { margin-right:1px; }
+.mg-r-2 { margin-right:2px; }
+.mg-r-4 { margin-right:4px; }
+.mg-r-6 { margin-right:6px; }
+.mg-r-8 { margin-right:8px; }
+.mg-r-10 { margin-right:10px; }
+.mg-r-15 { margin-right:15px; }
+.mg-r-20 { margin-right:20px; }
+.mg-r-25 { margin-right:25px; }
+.mg-r-30 { margin-right:30px; }
+
+/*--- Left ---*/
+
+.mg-l-1 { margin-left:1px; }
+.mg-l-2 { margin-left:2px; }
+.mg-l-4 { margin-left:4px; }
+.mg-l-6 { margin-left:6px; }
+.mg-l-8 { margin-left:8px; }
+.mg-l-10 { margin-left:10px; }
+.mg-l-15 { margin-left:15px; }
+.mg-l-20 { margin-left:20px; }
+.mg-l-25 { margin-left:25px; }
+.mg-l-30 { margin-left:30px; }
+
+/*
+*
+* BOXES
+*
+*/
+
+.box-1 { width:100%; }
+.box-2 { width:50%; }
+.box-3 { width:33.3%; }
+.box-4 { width:25%; }
+.box-5 { width:20%; }
+
+/*
+*
+* HEIGHTS
+*
+*/
+.box-ha {height:100vh;}
+.box-h1 {height:100px;}
+.box-h2 {height:200px;}
+.box-h3 {height:250px;}
+.box-h4 {height:350px;}
+.box-h5 {height:400px;}
+.box-h6 {height:450px;}
+.box-h7 {height:500px;}
+.box-h8 {height:550px;}
+.box-h9 {height:600px;}
+.box-h10 {height:650px;}
+.box-h11 {height:700px;}
+.box-h12 {height:750px;}
+.box-h13 {height:800px;}
+.box-h14 {height:850px;}
+.box-h15 {height:900px;}
+.box-h16 {height:950px;}
+.box-h17 {height:1000px;}
+
+/*
+*
+* FLOATS
+*
+*/
+
+.fl { float:left; }
+.fr { float:right; }
+
+
+/*
+*
+* CENTER
+*
+*/
+
+.c-bx-a {
+    margin:0 auto;
+    max-width:1100px;
+}
+
+/*
+*
+* OVERFLOWS
+*
+*/
+
+.ov-h { overflow:hidden; }
+
+.center {
+    position:absolute;
+    margin:auto;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.first-div {
+    z-index:4000;
+}
+
+/*
+*
+* Cursores
+*
+*/
+
+.cp {cursor:pointer;}
