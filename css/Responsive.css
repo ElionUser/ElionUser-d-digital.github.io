@@ -21,7 +21,7 @@
 
     .list {
         border:1px solid white;
-        max-width:100%;
+        width:100%;
         height:100vh;
         position:fixed;
         z-index:100;
@@ -31,7 +31,7 @@
     }
 
     .box-social-network {
-        width:450px;
+        width:60%;
         height:60px;
         margin-top:80px;
         margin-left:5%;
@@ -44,7 +44,7 @@
 
    
     .btns {
-        width:80%;
+        width:100%;
         padding:10px 0px;
     }
     .links {

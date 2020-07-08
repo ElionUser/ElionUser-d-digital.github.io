@@ -6,7 +6,7 @@ function loadNavScrollShow()
     WidthClient = document.body.clientWidth
     HeightClient = document.body.clientHeight
 
-    console.log(WidthClient)
+    console.log(HeightClient)
 
     if(HeightClient > 400 )
     {
